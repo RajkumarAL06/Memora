@@ -1,0 +1,66 @@
+| Part                 | Color              | Hex                     | Tailwind             |
+| -------------------- | ------------------ | ----------------------- | -------------------- |
+| Main background      | Soft Blush Pink    | `#FAE8E7`               | `bg-[#FAE8E7]`       |
+| Bottom/gradient pink | Light Rose Pink    | `#F9DBDC`               | `bg-[#F9DBDC]`       |
+| Login card           | Warm White         | `#FEF8F7`               | `bg-[#FEF8F7]`       |
+| Input background     | Very Light Pink    | `#F7EDF2`               | `bg-[#F7EDF2]`       |
+| Login button         | Dusty Rose         | `#D5718B`               | `bg-[#D5718B]`       |
+| Button hover         | Darker Rose        | `#C9607B`               | `hover:bg-[#C9607B]` |
+| Main text            | Dark Navy/Charcoal | `#1D2125`               | `text-[#1D2125]`     |
+| Secondary text       | Muted Purple-Gray  | approximately `#6F687D` | `text-[#6F687D]`     |
+| Pink accent          | Rose Pink          | `#E58AA0`               | `text-[#E58AA0]`     |
+| Border/divider       | Soft Gray-Pink     | `#D9C9CF`               | `border-[#D9C9CF]`   |
+
+
+
+| Element             | Cognitive Activities | Settings  |
+| ------------------- | -------------------- | --------- |
+| **Card background** | `#F1F0FF`            | `#FFF0F3` |
+| **Border**          | `#D9D7F5`            | `#F3D2DA` |
+| **Icon circle**     | `#E0DEFF`            | `#FFE0E7` |
+| **Main icon**       | `#5D5AA8`            | `#C65F78` |
+| **Heading**         | `#252A41`            | `#252A41` |
+| **Description**     | `#6F687D`            | `#6F687D` |
+| **Arrow/button**    | `#6B67C5`            | `#D5718B` |
+
+const cards = [
+  {
+    title: "Patient Dashboard",
+    description: "View patient details, progress and activity history.",
+    link: "/patient-dashboard",
+  },
+  {
+    title: "Upload Information",
+    description: "Add patient details, medical records, interests and more.",
+    link: "/upload-information",
+  },
+  {
+    title: "Report",
+    description: "Check performance reports and progress over time.",
+    link: "/report",
+  },
+  {
+    title: "AI Chatbot",
+    description: "Get instant answers and support anytime.",
+    link: "/ai-chatbot",
+  },
+  {
+    title: "Cognitive Activities",
+    description: "Play personalized games to improve cognitive skills.",
+    link: "/cognitive-activities",
+  },
+  {
+    title: "Settings",
+    description: "Manage your account and preferences.",
+    link: "/settings",
+  },
+]
+
+
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/memora.git
+git push -u origin main
